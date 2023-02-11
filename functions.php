@@ -1,5 +1,7 @@
 <?php
 
+    add_theme_support('post-thumbnails');
+
     function enqueue_style_script() {
         $ver = '1.0.0';
         
